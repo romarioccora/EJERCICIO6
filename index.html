@@ -8,6 +8,22 @@
 </head>
 <body>
     <h1>Formulario de contacto</h1>
-    <p>Bienvenido a nuestra página.</p>
+    <p>Completa tus datos para comunicarte con nosotros.</p>
+
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <br><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
